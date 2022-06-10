@@ -83,6 +83,7 @@ $ ./FlameGraph/stackcollapse-perf.pl test.unfold > test.folded
 $ ./FlameGraph/flamegraph.pl test.folded > test.svg
 ```
 火焰图如下
+![svg](./doc/test.svg)
 
 ## reference
 [利用perf剖析Linux应用程序](https://blog.gmem.cc/perf)
